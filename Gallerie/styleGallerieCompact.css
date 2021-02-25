@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    background: #182940;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 40px;
+}
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+p
+{
+    color: #000; 
+}
+.gallerie a
+{
+    color: #0D9FD9;
+}
+.container
+{
+    max-width: 2100px;
+    margin-left: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 850px;
+}
+section .containerr
+{
+    position: fixed;
+    padding: 40px 60px;
+    background: rgba(255, 255, 255, 0.418);
+    margin-left: -155px;
+    padding-left: 60px;
+    top: 230px;
+    width: calc(100% - 1700px);
+    height: 590px; 
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
+    transition: 0.9s;
+}
+section .containerr ul li
+{
+    list-style: none;
+    cursor: pointer;
+}
+section .containerr:hover
+{
+    box-shadow: 0 10px 110px rgba(255, 255, 255, 0.5);
+    transition: 0.7s;
+    background: rgb(255, 255, 255);
+    margin-left: 70px;
+}
+section .containerr ul
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+section .containerr a 
+{
+    background-color: #ffffff00;
+    color: #182940;
+}
+.list 
+{
+    background-color: #ffffff00;
+    color: #182940;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.list:hover
+{
+    color: #0D9FD9;
+}
+#compact
+{
+    color: #0D9FD9;
+}
+.col-6
+{
+    position: relative;
+    margin-top: 190px;
+    left: 435px;
+    bottom: 800px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    width: calc(350px);
+    height: 220px;
+    transition: 1.5s;
+    
+}
+.col-6:hover
+{
+    background:rgba(255, 255, 255, 0.212);
+    transition: 1.5s;
+}
+.col-6Golf
+{
+    background-color: #ffffff00;
+    position: relative;
+    top: 95px;
+    left: 180px;
+}
+.col-6 h3
+{
+    background-color: #ffffff00;
+    color: white;
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    font-size: 25px;
+}
+.col-6s
+{
+    color: white;
+    position: relative;
+    bottom: 75px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-6s p
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating4
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.test4
+{
+    color: white;
+    position: relative;
+    bottom: 110px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 20px;
+}
+.col-13
+{
+    position: relative;
+    margin-top: 190px;
+    left: 1035px;
+    bottom: 1210px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    width: calc(350px);
+    height: 220px;
+    transition: 1.5s;
+    
+}
+.col-13:hover
+{
+    background:rgba(255, 255, 255, 0.212);
+    transition: 1.5s;
+}
+.col-13renau
+{
+    background-color: #ffffff00;
+    position: relative;
+    top: 75px;
+    left: 130px;
+}
+.col-13 h3
+{
+    background-color: #ffffff00;
+    color: white;
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    font-size: 25px;
+}
+.col-13s
+{
+    color: white;
+    position: relative;
+    bottom: 125px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-13s p
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating11
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.test11
+{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 20px;
+}
+.col-17
+{
+    position: relative;
+    margin-top: 190px;
+    bottom: 1250px;
+    left: 770px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    width: calc(350px);
+    height: 220px;
+    transition: 1.5s;
+    
+}
+.col-17:hover
+{
+    background:rgba(255, 255, 255, 0.212);
+    transition: 1.5s;
+}
+.col-17toyotahy
+{
+    background-color: #ffffff00;
+    position: relative;
+    top: 75px;
+    left: 130px;
+}
+.col-17 h3
+{
+    background-color: #ffffff00;
+    color: white;
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    font-size: 25px;
+}
+.col-17s
+{
+    color: white;
+    position: relative;
+    bottom: 125px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-17s p
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating15
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.test15
+{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 20px;
+}

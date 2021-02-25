@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    background: #182940;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 40px;
+}
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+p
+{
+    color: #000; 
+}
+.reservation a
+{
+    color: #0D9FD9;
+}
+.container
+{
+    position: relative;
+    max-width: 2100px;
+    margin-left: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 850px;
+}
+.effet
+{
+    position: absolute;
+    top: 330px;
+    left: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+}
+h2
+{   position: relative;
+    font-size: 6em;
+    letter-spacing: 10px;
+    color: #081424;
+    /* text-transform: uppercase; */
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 0.90em;
+    outline: none;
+    animation: animate 2s linear infinite;
+    background-color: #ffffff00;
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #063041;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #0D9FD9,
+        0 0 20px #0D9FD9,
+        0 0 40px #0D9FD9,
+        0 0 80px #0D9FD9,
+        0 0 160px #0D9FD9;
+
+    }
+}
+.effet p
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 900px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.btn
+{
+     display: inline-block;
+     background: #0D9FD9;
+     color: #fff;
+     padding: 12px 30px;
+     margin: 15px 0;
+     border-radius: 30px;
+     margin-top: 30px;
+     
+}
+.btn:hover
+{
+    background: #ffffff;
+    color: #0D9FD9;
+    transition: 0.5s;
+}

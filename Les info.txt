@@ -1,0 +1,33 @@
+* Moto : 
+         - normale :........10,00$**********
+         - electrique :.....10,50$    +5% ++++++UP
+         - Essence :........11,40$    +14% ++++++UP2
+
+* Citadine : (Manuelle)
+         - Normale :........12,00$**********
+         - Electrique :.....12,60$    +5% ++++++++UP
+         - Hybride :........13,08$    +9% ++++++++UP
+         - Essance :........13,68$    +14% +++++++UP
+         - Diesel :.........14,52$    +21% +++++++UP
+
+* Compact : (Manuelle)
+         - Normale :........14,00$**********
+         - Hybride :........14,56$    +9% +++++++UP
+         - Essance :........16,00$    +14% ++++++UP
+         - Diesel :.........17,00$    +21% ++++++UP
+
+* Berline : (automatique +19%)
+         - Normale :........24,00$*********
+         - Hybride :........26,00$    +9% +++++++UP
+         - Essance :........27,50$    +14% ++++++UP
+         - Diesel :.........29,00$    +21% ++++++UP
+
+* Utilitaire : (Manuelle)
+         - N & Diesel :.....19,50$    +21% ++++++UP
+
+* Engin de Chantier : (Manuelle)
+         - Essance :......1026,00$    +14% +++++++UP
+         - Diesel :.......1089,00$    +21% +++++++UP
+
+*Camion : (Automatique +19%)
+         - Diesel :........302,40$    +21% +++++++UP

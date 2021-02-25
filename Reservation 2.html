@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSEVA | Agence de location Voiture</title>
+    <link rel="stylesheet" href="stylereservation2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="file:///C:/Users/admin/Desktop/Brif%203/Charte%20Graphique/logo-white.png" alt="Logo Museva" width="150px">
+            </div>
+            <nav>
+            <ul>
+                <li><a href="file:///C:/Users/admin/Desktop/Brif%203/Index.html">Home</a></li>
+                <li><a href="file:///C:/Users/admin/Desktop/Brif%203/Gallerie.html">Gallerie</a></li>
+                <li class="reservation"><a href="file:///C:/Users/admin/Desktop/Brif%203/Reservation.html">Réservation</a></li>
+                <li><a href="file:///C:/Users/admin/Desktop/Brif%203/Contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+    <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="file:///C:/Users/admin/Desktop/Untitled.mp4" type="video/mp4">
+         </video>
+    <section>
+        <div class="containerr">
+                <h3 class="title">Réservation</h3>
+                <div class="input-container ">
+                    <input placeholder="Nom et Prénom" type="text" name="name" class="input">
+                </div>
+                <div class="input-container">
+                    <input placeholder="Email" type="email" name="email" class="input">
+                    
+                </div>
+                <div class="zar">
+                      <select id="cars" name="cars" onchange="vehicule()" class="input">
+                         <option value="">Sélectionnez un véhicule </option>
+                         <option value="Moto">Moto</option>
+                         <option value="Citadine">Citadine</option>
+                         <option value="Compact">Compact</option>
+                         <option value="Berline">Berline</option>
+                         <option value="Utilitaire">Utilitaire</option>
+                         <option value="Engin">Engin de Chantier</option>
+                         <option value="Camion">Camion</option>
+                    </select>
+                </div>
+                <div class="zar1">
+                    <select id="boiteavitesse" name="cars" onchange="boite()" class="input">
+                       <option value="">Sélectionnez la boite a vitesse</option>
+                       <option value="manuelle">Manuelle</option>
+                       <option value="automatique">Automatique</option>
+                  </select>
+                </div>
+              <div class="zar1">
+                <select id="cars2" name="cars" onchange="carb()" class="input">
+                   <option>Sélectionnez votre choix </option>
+                   <option  value="electrique">Electrique</option>
+                   <option  value="hybride">hybride</option>
+                   <option  value="essance">Essance</option>
+                   <option  value="diesel">Diesel</option>
+              </select>
+              <input id="date" type="number" class="date">
+          </div>
+                <input  onclick="prixTotal()" id="submit" type="submit" value="Envoyez" class="btn">
+                <div id="displayTotal" class="fini"></div>
+        </div>
+        <script type="text/javascript" src="reservscript.js"></script>
+    </section>

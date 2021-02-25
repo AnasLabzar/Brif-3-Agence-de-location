@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    background: #182940;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 40px;
+}
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+p
+{
+    color: #000; 
+}
+.gallerie a
+{
+    color: #0D9FD9;
+}
+.container
+{
+    max-width: 2100px;
+    margin-left: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 850px;
+}
+section .containerr
+{
+    position: fixed;
+    padding: 40px 60px;
+    background: rgba(255, 255, 255, 0.418);
+    margin-left: -155px;
+    padding-left: 60px;
+    top: 230px;
+    width: calc(100% - 1700px);
+    height: 590px; 
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
+    transition: 0.9s;
+}
+section .containerr ul li
+{
+    list-style: none;
+    cursor: pointer;
+}
+section .containerr:hover
+{
+    box-shadow: 0 10px 110px rgba(255, 255, 255, 0.5);
+    transition: 0.7s;
+    background: rgb(255, 255, 255);
+    margin-left: 70px;
+}
+section .containerr ul
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+section .containerr a 
+{
+    background-color: #ffffff00;
+    color: #182940;
+}
+.list
+{
+    background-color: #ffffff00;
+    color: #182940;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.list:hover
+{
+    color: #0D9FD9;
+}
+#moto
+{
+    color: #0D9FD9;
+}
+.col-2
+{
+    position: relative;
+    left: 430px;
+    bottom: 620px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    width: calc(350px);
+    height: 220px;
+    transition: 1.5s;
+}
+.col-2:hover
+{
+    background:rgba(255, 255, 255, 0.212);
+    transition: 1.5s;
+}
+.col-2tmax
+{
+    background-color: #ffffff00;
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+.col-2 h3
+{
+    background-color: #ffffff00;
+    color: white;
+    position: relative;
+    bottom: 175px;
+    left: 20px;
+    font-size: 25px;
+}
+.col-2s
+{
+    color: white;
+    position: relative;
+    bottom: 110px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-2s p
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.test 
+{
+    color: white;
+    position: relative;
+    bottom: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 20px;
+}
+.col-4
+{
+    position: relative;
+    left: 990px;
+    bottom: 840px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    width: calc(350px);
+    height: 220px;
+    transition: 1.5s;
+}
+.col-4:hover
+{
+    background:rgba(255, 255, 255, 0.212);
+    transition: 1.5s;
+}
+.col-4sh
+{
+    background-color: #ffffff00;
+    position: relative;
+    top: 75px;
+    left: 180px;
+}
+.col-4 h3
+{
+    background-color: #ffffff00;
+    color: white;
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    font-size: 25px;
+}
+.col-4s
+{
+    color: white;
+    position: relative;
+    bottom: 125px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-4s p
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating2
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.test2
+{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 20px;
+}
+.col-10
+{
+    position: relative;
+    margin-top: 190px;
+    left: 710px;
+    bottom: 870px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    width: calc(350px);
+    height: 220px;
+    transition: 1.5s;
+    
+}
+.col-10:hover
+{
+    background:rgba(255, 255, 255, 0.212);
+    transition: 1.5s;
+}
+.col-10eco
+{
+    background-color: #ffffff00;
+    position: relative;
+    top: 45px;
+    left: 170px;
+}
+.col-10 h3
+{
+    background-color: #ffffff00;
+    color: white;
+    position: relative;
+    bottom: 270px;
+    left: 20px;
+    font-size: 25px;
+}
+.col-10s
+{
+    color: white;
+    position: relative;
+    bottom: 215px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-10s p
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating8
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.test8
+{
+    color: white;
+    position: relative;
+    bottom: 260px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 20px;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    background-color: #ffffff00;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 40px;
+}
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+p
+{
+    color: #000; 
+}
+.reservation a
+{
+    color: #0D9FD9;
+}
+section .containerr
+{ 
+    position: absolute;
+    padding: 50px 50px;
+    background:rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    margin-left: 700px;
+    padding-left: 60px;
+    top: 150px;
+    width: calc(100% - 1400px);
+    height: 600px; 
+
+    transition: 1.7s;
+}
+section .containerr:hover
+{
+    box-shadow: 0 10px 300px #86bfd6;
+    transition: 1.7s;
+}
+video
+{
+    width: cover;
+}
+#video_background
+{
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -1000;
+   overflow: hidden;
+}
+.container
+{
+    background-color: #ffffff00;
+    padding-left: 150px;
+}
+section .container 
+{ 
+    position: absolute;
+    padding: 50px 50px;
+    background: #fff;
+    margin-left: 800px;
+    padding-left: 60px;
+    top: 250px;
+    width: calc(100% - 1300px);
+    height: 560px; 
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+.title
+{
+    font-weight: 500;
+    font-size: 2em;
+    line-height:1;
+    margin-bottom: 1.2em;
+    color: #0D9FD9;
+}
+.input-container
+{
+    position: relative;
+    margin: 1rem 0;
+}
+
+.input 
+{
+    width: 100%;
+    outline: none;
+    border: 2px solid #c5c5c5;
+    background: none;
+    padding: 0.7rem 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+textarea.input
+{
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    overflow-y: auto;
+}
+.btn
+{
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #0D9FD9;
+    font-size: 0.95rem;
+    color: #0D9FD9;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    margin-top: 30px;
+}
+.btn:hover
+{
+    background-color: #0D9FD9;
+    color: #fff;
+    transition: 0.7s;
+}
+#cars
+{
+    color: rgb(173, 173, 173);
+}
+.zar1
+{
+    margin-top: 15px;
+}
+#cars2
+{
+    color: rgb(173, 173, 173);
+}
+#boiteavitesse
+{
+    color: rgb(173, 173, 173);
+}
+.date
+{
+    width: 100%;
+    outline: none;
+    border: 2px solid #c5c5c5;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color:  rgb(173, 173, 173);
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+.fini
+{
+    position: relative;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+input::placeholder
+{
+    color: rgb(173, 173, 173);;
+}
